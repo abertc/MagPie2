@@ -55,6 +55,14 @@ public class Magpie2
         {
             response = "Wow, you are the best runner ever!";
         }
+        else if (statement.indexOf("Theo") >= 0)
+        {
+            response = "He sucks at life.";
+        }
+        else if (statement.indexOf("Sean") >= 0)
+        {
+            response = "He is a good swimmer.";
+        }
 		else
 		{
 			response = getRandomResponse();
@@ -91,5 +99,6 @@ public class Magpie2
 		}
 
 		return response;
+
 	}
 }
